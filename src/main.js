@@ -9,8 +9,7 @@ export function setupCounter(element) {
 
   const setCounter = (value) => {
     counter = adjustCounterValue(value);
-    const text = `${counter}`;
-    element.innerHTML = text;
+    element.innerHTML = `${counter}`;
   };
 
   document
@@ -30,4 +29,4 @@ export function setupCounter(element) {
 }
 
 setupCounter(document.getElementById('counter-value'));
-// placeholder
+// placeholder²
