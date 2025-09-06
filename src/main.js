@@ -29,4 +29,4 @@ export function setupCounter(element) {
 }
 
 setupCounter(document.getElementById('counter-value'));
-// placeholder³
+// placeholder£
